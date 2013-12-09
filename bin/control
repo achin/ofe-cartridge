@@ -4,10 +4,12 @@ source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 function start() {
     client_message "Adding OFE registration"
+    touch "$OPENSHIFT_OFE_DIR/run/status"
 }
 
 function stop() {
     client_message "Removing OFE registration"
+    rm "$OPENSHIFT_OFE_DIR/run/status"
 }
 
 function restart() {

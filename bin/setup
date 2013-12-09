@@ -2,4 +2,4 @@
 
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
-mkdir -p "$OPENSHIFT_OFE_DIR/{log,run}"
+mkdir -p $OPENSHIFT_OFE_DIR/{log,run}
