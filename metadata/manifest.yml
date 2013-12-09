@@ -2,7 +2,7 @@ Name: ofe
 Cartridge-Short-Name: OFE
 Display-Name: OFE
 Description: "Register web applications with the ORION Front End"
-Source-Url: https://git.lab76.org/achin/ofe-cartridge/repository/archive?ref=master
+Source-Url: https://git.lab76.org/achin/ofe-cartridge/repository/archive?ref=master&tar.gz
 Version: "0.1"
 License: "ASL 2.0"
 License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
