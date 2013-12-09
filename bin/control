@@ -22,6 +22,10 @@ function status() {
     client_result "Not running"
 }
 
+function post-deploy() {
+    client_message "Adding OFE registration..."
+}
+
 function noop () {
     return 0
 }
@@ -31,11 +35,11 @@ case "$1" in
   stop)        stop ;;
   restart)     restart ;;
   status)      status ;;
+  post-deploy) post-deploy ;;
   reload)      noop ;;
   tidy)        noop ;;
   prebuild)    noop ;;
   build)       noop ;;
   deploy)      noop ;;
-  post-deploy) noop ;;
   *)           exit 0
 esac
